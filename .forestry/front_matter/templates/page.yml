@@ -1,5 +1,5 @@
 ---
-label: Page
+label: Prisar
 hide_body: false
 is_partial: false
 fields:
@@ -12,7 +12,7 @@ fields:
   label: Title
   type: text
   hidden: false
-  default: ''
+  default: Prisar
   description: Add page title here
 - type: datetime
   name: date
@@ -32,5 +32,9 @@ fields:
     if Sidebar Link is active)
   config:
     min: '1'
+- type: text
+  label: Huslån
+  name: huslaan
+  default: Huslån
 pages:
 - about.md
