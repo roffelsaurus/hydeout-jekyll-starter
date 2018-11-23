@@ -37,4 +37,5 @@ fields:
   name: huslaan
   default: Huslån
 pages:
+- prisar.md
 - about.md
